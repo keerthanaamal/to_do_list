@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-%+y!uf%qneks6#k*(d32!&2le0l%vp=+)&tbmt4yx=1s1x278r
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["to-do-list-3-oo2k.onrender.com", "localhost"]
+ALLOWED_HOSTS = ["todolistangularwithdjango.netlify.app", "localhost","to-do-list-3-oo2k.onrender.com"]
 
 
 # Application definition
@@ -134,5 +134,5 @@ AUTH_USER_MODEL="projectapp.user"
 # CORS_ALLOW_ALL_HEADERS= True
 
 CORS_ALLOWED_ORIGINS = [
-    "https://to-do-list-using-django-angular.netlify.app",
+    "https://todolistangularwithdjango.netlify.app",
 ]
